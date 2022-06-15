@@ -12,7 +12,6 @@ class megaContailner extends Component {
     return (
       <Fragment>
         <firstPage />
-        <secondPage />
       </Fragment>
     );
   }

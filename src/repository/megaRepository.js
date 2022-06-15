@@ -1,6 +1,6 @@
 import react, { Component } from "react";
 
-const Information = [
+export const Information = [
   {
     name: "A군",
     age: 21,
@@ -57,4 +57,11 @@ const Information = [
     location: "Gwangyang",
   },
 ];
-export default Information;
+
+axios({
+  method: "get",
+  url: "url",
+  responseType: "type",
+}).then(function (response) {
+  // response Action
+});
