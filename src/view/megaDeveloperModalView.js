@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-class secondModalView extends Component {
+class megaDeveloperModalView extends Component {
   render() {
     return <div></div>;
   }
 }
 
-export default secondModalView;
+export default megaDeveloperModalView;

@@ -13,3 +13,20 @@ export const columnDefs = [
     position: "사업부",
   },
 ];
+
+export const rowData = [
+  {
+    empno: "1",
+    headerName: "남주현",
+    job: "SI개발",
+    mgr: "직속상사",
+    hiredate: "입사일",
+    sal: "급여",
+    comm: "보너스",
+    deptno: "부서코드",
+    birthDay: "생년월일",
+    position: "사업부",
+  },
+];
+
+// export const
