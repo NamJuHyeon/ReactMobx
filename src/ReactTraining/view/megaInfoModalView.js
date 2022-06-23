@@ -22,7 +22,7 @@ class megaInfoModalView extends Component {
         <AgGridReact
           rowData={rowdata} //tableData
           columnDefs={columnDefs} //headerTable
-          animateRows={true} //rowAnimation
+          animateRows={true} //rowAnimationcmd
           suppressRowClickSelection={true} //click시 행 선택 안됨
           rowSelection={"multiple"} //multi row select
           enableCellTextSelection={true} //drag시 일반 텍스트 선택
@@ -31,7 +31,7 @@ class megaInfoModalView extends Component {
 
         <Button variant="contained" color="primary">
           {" "}
-          // 사용한다. Hello World
+          {/* 사용한다. Hello World */}
         </Button>
       </div>
     );
