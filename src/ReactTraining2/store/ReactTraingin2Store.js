@@ -1,8 +1,8 @@
-import { observer, action, computed } from "mobx";
+import { observeble, action, computed } from "mobx";
 
 export default class megaStore {
   // =================================================observable=================================================
-  // @observer
+  // @observeble
   // ==================================================computed==================================================
   // @computed
   // ===================================================action===================================================
