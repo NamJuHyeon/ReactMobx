@@ -5,7 +5,10 @@ import { observar } from "mobx";
 @inject("megaStore")
 @observer
 class megaContailner extends Component {
-  componentDidMount() {}
+  componentDidMount() {
+    back;
+    back2;
+  }
 
   render() {
     return (
